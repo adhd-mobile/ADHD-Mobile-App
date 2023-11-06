@@ -31,6 +31,47 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Styles for the container */
+        .container1 {
+            text-align: center; /* Center the columns */
+        }
+        /* Styles for the columns */
+        .column {
+            width: 30%;
+            display: inline-block; /* Display columns in a line */
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            margin: 0 auto; /* Center the columns */
+        }
+
+        /* Styles for the title */
+        .title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px; /* Added margin to adjust for the icon size */
+        }
+
+        /* Styles for the icon */
+        .icon {
+            font-size: 60px;
+            color: orange;
+        }
+
+        /* Styles for the description */
+        .description {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        /* Clearfix to clear floats */
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
 
 <body>
@@ -216,15 +257,17 @@
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="mb-4">Learn More About Our Work And Our Cultural Activities</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        <h5>Project Scope</h5>
+                        <h1 class="mb-4">Literature Survey</h1>
+                        <p>Attention Deficit Hyperactivity Disorder (ADHD) affects 2- 7 percent of children worldwide, leading to academic, social, and emotional challenges. Timely identification is crucial for effective treatment. However, in Sri Lanka, lack of awareness hinders therapy access. Existing solutions have gaps in iden- tifying ADHD [1]. Innovations are needed to bridge this gap and improve accessibility. ADHD’s global prevalence ranges from 5-10 percent in school-aged children. The disorder significantly impacts aca- demics, social interactions, and overall well-being [2]. Un- treated ADHD results in educational difficulties, low self- esteem, and relationship struggles. Traditional ADHD detection methods in Sri Lanka include activities like painting and puzzles, but these lack accuracy and reliability. Limited resources and tailored therapy hinder interventions. Machine learning shows promise in ADHD detection. Abbas et al. used eye-tracking and neural networks to achieve high accuracy. Game-based interventions offer effective ADHD assessment and treatment. They engage users, improve cognitive skills, and target specific symptoms [3] [4].
                         </p>
-                        <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam
-                            rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus
-                            dolor eos, ipsum labore duo duo sit no sea diam. Et dolor et kasd ea. Eirmod diam at dolor
-                            est vero nonumy magna.</p>
-                        <div class="row g-4 align-items-center">
+                        <!-- <p class="mb-4">ADHD’s global prevalence ranges from 5-10 percent in school-aged children. The disorder significantly impacts aca- demics, social interactions, and overall well-being [2]. Un- treated ADHD results in educational difficulties, low self- esteem, and relationship struggles.</p> -->
+                        <!-- <p class="mb-4"> -->
+                            <!-- Traditional ADHD detection methods in Sri Lanka include activities like painting and puzzles, but these lack accuracy and reliability. Limited resources and tailored therapy hinder interventions. Machine learning shows promise in ADHD detection. Abbas et al. used eye-tracking and neural networks to achieve high accuracy. Game-based interventions offer effective ADHD assessment and treatment. They engage users, improve cognitive skills, and target specific symptoms [3] [4].</p> -->
+                        <p class="mb-4">
+                            Implementing a game-based mobile app for ADHD in Sri Lanka faces challenges like low awareness, resource scarcity, and technological barriers [5]. However, the prevalence of mobile devices presents an opportunity to raise awareness and enhance access. Such an app can be cost-effective, scalable, and user-friendly. In conclusion, early ADHD detection and treatment are crucial in Sri Lanka. Machine learning and game-based mobile apps hold promise to improve accuracy and accessibility. Future research should validate the app’s effectiveness, address cultural considerations, and ensure lasting benefits for children with ADHD.</p>
+                        <!-- <p class="mb-4">In conclusion, early ADHD detection and treatment are crucial in Sri Lanka. Machine learning and game-based mobile apps hold promise to improve accuracy and accessibility. Future research should validate the app’s effectiveness, address cultural considerations, and ensure lasting benefits for children with ADHD.</p> -->
+                        <!-- <div class="row g-4 align-items-center">
                             <div class="col-sm-6">
                                 <a class="btn btn-primary rounded-pill py-3 px-5" href="">Read More</a>
                             </div>
@@ -238,7 +281,29 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+                        <p>                    
+                            <!-- Reference section -->
+                            <hr>
+                            <text><b>References</b></text>
+                            <ol style="font-size: 14px;">
+                                <li style="font-size: 12px;">
+                                    E. Ventouri, “ADHD and Learning Motivations,” OAlib, vol. 07, no. 08, pp. 1–28, 2020, doi: 10.4236/oalib.1106594.
+                                </li>
+                                <li style="font-size: 12px;">
+                                    S. Franke, R. Kissgen, M. Krischer, and K. Sevecke, “Attachment in Children with ADHD,” J Behav Brain Sci, vol. 07, no. 11, pp. 497–510, 2017, doi: 10.4236/jbbs.2017.711035.
+                                </li>
+                                <li style="font-size: 12px;">
+                                    C.-R. Pa ̆sa ̆relu, R. Kertesz, and A. Dobrean, “The Development and Us- ability of a Mobile App for Parents of Children with ADHD,” Children, vol. 10, no. 1, p. 164, Jan. 2023, doi: 10.3390/children10010164.
+                                </li>
+                                <li style="font-size: 12px;">
+                                    M. Frutos-Pascual and B. G. Zapirain, “Guided crossword-puzzle games aimed at children with Attentional Deficit: Preliminary results,” in Proceedings of CGAMES 2014 USA - 19th International Confer- ence on Computer Games: AI, Animation, Mobile, Interactive Mul- timedia, Educational and Serious Games, Oct. 2014, pp. 70–73. doi: 10.1109/CGames.2014.6934137.
+                                </li>
+                                <li style="font-size: 12px;">
+                                    S. Dey, A. Ravishankar Rao, and M. Shah, “Exploiting the brain’s network structure in identifying ADHD subjects,” Front Syst Neurosci, no. OCTOBER 2012, Oct. 2012, doi: 10.3389/fnsys.2012.00075.
+                                </li>
+                            </ol>
+                        </p>
                     </div>
                     <div class="col-lg-6 about-img wow fadeInUp" data-wow-delay="0.5s">
                         <div class="row">
@@ -257,6 +322,44 @@
             </div>
         </div>
         <!-- About End -->
+
+                <!-- Three columns -->
+                <div class="container-xxl py-5">
+                    <div class="container">
+                        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                            <h1 class="mb-3">Research Gap</h1>
+                            <p>research gaps related to ADHD in Sri Lankan children aged between 6-12
+                            </p>
+                        </div>
+                        <div class="container1">
+                            <div class="column">
+                                <div class="title">
+                                    <div class="icon"><i class="fas fa-globe"></i></div>
+                                    Cultural Impacts on ADHD
+                                </div>
+                                <div class="description">Limited research exists on how cultural beliefs, family dynamics, and societal norms in Sri Lanka influence the recognition and handling of ADHD in children aged 6-12.</div>
+                            </div>
+            
+                            <div class="column">
+                                <div class="title">
+                                    <div class="icon"><i class="fas fa-hospital"></i></div>
+                                    Healthcare Access Challenges
+                                </div>
+                                <div class="description">Understanding the obstacles to accessing healthcare facilities and specialized ADHD resources in Sri Lanka is crucial, focusing on affordability, availability, and cultural acceptability.</div>
+                            </div>
+            
+                            <div class="column">
+                                <div class="title">
+                                    <div class="icon"><i class="fas fa-user-md"></i></div>
+                                    Tailored Interventions Efficacy
+                                </div>
+                                <div class="description">Limited research exists on how well culturally adapted interventions work for managing ADHD in Sri Lankan children. Investigating their effectiveness is vital for better management.</div>
+                            </div>
+            
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
 
 
         <!-- Call To Action Start -->
